@@ -1,7 +1,12 @@
 variable "sample" {
-  default = "Hello world"
+  default = "INDIA"
 }
 
-output "test" {
+output "sample-out" {
   value = var.sample
+}
+
+output "sample-var-out" {
+  value = "Welcomr to ${var.sample}"
+ 
 }
