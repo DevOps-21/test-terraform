@@ -11,7 +11,7 @@ output "sample-var-out" {
  
 }
 
-
+#list vaibale 
 variable "examble-list" {
   default = ["Hello",100,"world",10]
 }
@@ -19,4 +19,19 @@ variable "examble-list" {
 output "examble-list-out" {
   value = "${var.examble-list[0]} to ${var.examble-list[2]} start ${var.examble-list[3]}"
   
+}
+
+#Map vaiable 
+
+variable "example-map" {
+  dedefault = {
+
+    test1 = " Hello world"
+    test2 = "india"
+    test3 = 75
+  } 
+}
+
+output "example-map-out" {
+  value = "Welcome.... ${var.example-map[test1]} to ${var.example-map[test2]} on ${var.example-map[test3]} celebration all peoples"
 }
