@@ -6,6 +6,7 @@ output "city-out" {
   value = var.city
 }
 # empty vailbe suppy trough commen line terraform plan -var state=Tamilnadu like
+#commend line variable in higher perioty
 variable "state" {
   
 }
