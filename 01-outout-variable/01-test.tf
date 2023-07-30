@@ -7,7 +7,7 @@ output "sample1-out" {
 
 
 
-
+# declear variable
 
 variable "sample" {
   default = "INDIA"
@@ -17,6 +17,7 @@ output "sample-out" {
   value = var.sample
 }
 
+#add vailable inbetween string
 output "sample-var-out" {
   value = "Welcomr to ${var.sample}"
  
