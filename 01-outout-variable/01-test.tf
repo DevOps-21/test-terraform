@@ -33,5 +33,5 @@ variable "example-map" {
 }
 
 output "example-map-out" {
-  value = "Welcome.... ${var.example-map[test1]} to ${var.example-map[test2]} on ${var.example-map[test3]} celebration all peoples"
+  value = "Welcome.... ${var.example-map["test1"]} to ${var.example-map["test2"]} on ${var.example-map["test3"]} celebration all peoples"
 }
