@@ -1,3 +1,14 @@
+#empty vaibales
+variable "sample1" {}
+
+output "sample1-out" {
+  value = var.sample1
+}
+
+
+
+
+
 variable "sample" {
   default = "INDIA"
 }
