@@ -17,6 +17,6 @@ variable "examble-list" {
 }
 
 output "examble-list-out" {
-  value = "${var.examble-list[0]} to ${var.examble-list[2]} start ${var.examble-list-out[3]}"
+  value = "${var.examble-list[0]} to ${var.examble-list[2]} start ${var.examble-list[3]}"
   
 }
