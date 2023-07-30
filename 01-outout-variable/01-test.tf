@@ -24,7 +24,7 @@ output "examble-list-out" {
 #Map vaiable 
 
 variable "example-map" {
-  dedefault = {
+  default = {
 
     test1 = " Hello world"
     test2 = "india"
