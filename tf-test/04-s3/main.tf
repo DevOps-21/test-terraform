@@ -4,6 +4,6 @@ resource "aws_instance" "remote-backend-s3" {
   instance_type = "t3.micro"
 
   tags = {
-    Name="Helloworld-S3"
+    Name="Helloworld-S3-bukget"
     }
 }
