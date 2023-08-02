@@ -4,3 +4,7 @@ resource "aws_instance" "web" {
 
   tags = {Name="Helloworld"}
 }
+
+output "server-id" {
+ value = aws_instance.web.arn 
+}

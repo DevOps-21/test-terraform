@@ -12,7 +12,7 @@ resource "aws_instance" "server" {
 output "private_ip_address" {
   value = aws_instance.server.private_ip
 }
-
+#---------------------------------------------------------------------
 # Creates a Security Group
 resource "aws_security_group" "allow_all" {
   name        = "allow_tls"
