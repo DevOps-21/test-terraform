@@ -8,7 +8,9 @@ resource "aws_instance_create" "server" {
   }
 }
 
+variable "sg" {}
 
-#variable "sg" {
-  
-#}  # Step 3 : use this varible 
+output "Public_ip_address" {
+  value = aws_instance_create.server.Public_ip
+}
+

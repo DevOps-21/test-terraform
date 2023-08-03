@@ -7,3 +7,8 @@ module "sg" {
     source = "./sg"
   
 }
+
+output "private_ip" {
+    value = module.ec2.Public_ip_address
+  
+}
