@@ -11,6 +11,6 @@ resource "aws_instance" "server" {
 variable "sg" {}
 
 output "Public_ip_address" {
-  value = "aws_instance_create.server.Public_ip"
+  value = "aws_instance.server.Public_ip"
 }
 
