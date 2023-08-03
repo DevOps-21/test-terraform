@@ -12,5 +12,9 @@ variable "sg" {}
 
 output "Public_ip_address" {
   value = aws_instance.server.public_ip
+  }
+
+output "sg-out" {
+  value = var.sg
 }
 

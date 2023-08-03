@@ -10,7 +10,7 @@ resource "aws_instance" "server" {
 
 variable "sg" {}
 
-output "Public_ip_address" {
+output "Public_ip" {
   value = aws_instance.server.public_ip
 }
 
